@@ -1,0 +1,43 @@
+
+> digital-credibility-builder@0.1.0 dev
+> next dev --turbopack
+
+   ▲ Next.js 15.5.6 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://169.254.0.21:3000
+
+ ✓ Starting...
+ ✓ Ready in 45.7s
+ ○ Compiling / ...
+ ✓ Compiled / in 170.9s
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ GET / 200 in 216116ms
+ GET / 200 in 77514ms
+ GET / 200 in 153298ms
+ GET / 200 in 215246ms
+ GET / 200 in 9779ms
+ ⚠ Cross origin request detected from digital-credibility.lindy.site to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET / 200 in 10765ms
+ ○ Compiling /favicon.ico ...
+ GET / 200 in 7946ms
+ ✓ Compiled /favicon.ico in 26.2s
+ GET /favicon.ico?favicon.bf3c9292.ico 200 in 31948ms
+ GET /favicon.ico 200 in 2713ms
+ GET / 200 in 7480ms
+ GET /favicon.ico?favicon.bf3c9292.ico 200 in 4119ms
+ GET / 200 in 8172ms
+ GET /favicon.ico 200 in 4250ms
+ GET /favicon.ico?favicon.bf3c9292.ico 200 in 4430ms
+ ○ Compiling /_not-found/page ...
+ GET /favicon.ico?favicon.bf3c9292.ico 200 in 6918ms
+ GET /favicon.ico 200 in 6802ms
+ GET /favicon.ico 200 in 6513ms
+ GET / 200 in 10224ms
+ ✓ Compiled /_not-found/page in 20.5s
+ GET /apple-touch-icon.png 404 in 29120ms
+ GET /apple-touch-icon-precomposed.png 404 in 31075ms
+ GET /favicon.ico?favicon.bf3c9292.ico 200 in 10763ms
+ GET /favicon.ico 200 in 10881ms
+ GET / 200 in 7483ms
+ GET /favicon.ico 200 in 3681ms
