@@ -6,10 +6,9 @@ import { Briefcase, Users, Rocket, TrendingUp, Target, Zap } from 'lucide-react'
 /**
  * Who This Is For Section
  * Displays the ideal audience for Digital Credibility Builder services
- * Shows different professional personas that benefit from the service
  */
 export function WhoThisIsFor() {
-  // Array of ideal customer personas
+  // Personas
   const personas = [
     {
       title: 'Founders',
@@ -18,7 +17,7 @@ export function WhoThisIsFor() {
       color: 'from-purple-500 to-purple-600',
     },
     {
-      title: 'CEOs',
+      title: 'CEOs and Senior Leaders',
       description: 'Establish thought leadership and industry authority',
       icon: TrendingUp,
       color: 'from-pink-500 to-pink-600',
@@ -36,7 +35,7 @@ export function WhoThisIsFor() {
       color: 'from-amber-500 to-amber-600',
     },
     {
-      title: 'High Growth SMEs',
+      title: 'High-Growth SMEs',
       description: 'Scale your business with a clear, recognizable brand',
       icon: Users,
       color: 'from-green-500 to-green-600',
@@ -57,8 +56,8 @@ export function WhoThisIsFor() {
           <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-4">
             Who This Is For
           </h2>
-          <p className="text-lg text-slate-600 max-w-2xl mx-auto mb-8">
-            Designed for leaders who want to be recognized for what they stand for.
+          <p className="text-lg text-slate-600 max-w-2xl mx-auto mb-4">
+            This is built for leaders who want to be known — not just seen.
           </p>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto font-semibold">
             Ideal for:
@@ -79,20 +78,12 @@ export function WhoThisIsFor() {
 
                 {/* Card content */}
                 <div className="relative p-8">
-                  {/* Icon container */}
                   <div className={`inline-flex items-center justify-center w-14 h-14 rounded-lg bg-gradient-to-br ${persona.color} text-white mb-4 group-hover:scale-110 transition-transform duration-300`}>
                     <Icon className="w-7 h-7" />
                   </div>
 
-                  {/* Title */}
-                  <h3 className="text-xl font-bold text-slate-900 mb-2">
-                    {persona.title}
-                  </h3>
-
-                  {/* Description */}
-                  <p className="text-slate-600 leading-relaxed">
-                    {persona.description}
-                  </p>
+                  <h3 className="text-xl font-bold text-slate-900 mb-2">{persona.title}</h3>
+                  <p className="text-slate-600 leading-relaxed">{persona.description}</p>
                 </div>
               </Card>
             )
@@ -102,7 +93,7 @@ export function WhoThisIsFor() {
         {/* Call to action statement */}
         <div className="bg-gradient-to-r from-purple-50 to-pink-50 border-2 border-purple-200 rounded-xl p-8 text-center">
           <p className="text-xl text-slate-900 font-semibold leading-relaxed">
-            If you want to communicate your identity clearly and be discovered for it, this is for you.
+            If you want your market to describe you clearly, trust you instantly, and choose you confidently — this is for you.
           </p>
         </div>
       </div>
