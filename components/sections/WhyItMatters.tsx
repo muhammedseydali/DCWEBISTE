@@ -6,55 +6,54 @@ import { Eye, Brain, Zap, Shield, TrendingUp, Users } from 'lucide-react'
 /**
  * Why Digital Credibility Matters Section
  * Explains the importance of digital credibility and its benefits
- * Showcases key benefits with icons and descriptions
  */
 export function WhyItMatters() {
-  // Key principles that make digital credibility important
+  // Core principles
   const principles = [
     {
-      text: 'People make decisions quickly.',
+      text: 'People trust what they understand immediately.',
       icon: Zap,
     },
     {
-      text: 'They trust what they understand.',
+      text: 'They buy what they can explain to others.',
       icon: Shield,
     },
     {
-      text: 'And they remember what is simple and clear.',
+      text: 'They remember what is simple, sharp, and consistent.',
       icon: Brain,
     },
   ]
 
-  // Benefits of a strong identity phrase
+  // Benefits
   const benefits = [
     {
       title: 'Faster Recognition',
-      description: 'Your brand is immediately identifiable in a crowded market',
+      description: 'Your brand is immediately identifiable in crowded markets',
       icon: Eye,
     },
     {
-      title: 'Stronger Recall',
-      description: 'People remember you more easily and accurately',
+      title: 'Clear Recall',
+      description: 'People remember you accurately and easily',
       icon: Brain,
     },
     {
-      title: 'Better Differentiation',
-      description: 'Stand out clearly from your competitors',
+      title: 'Strong Differentiation',
+      description: 'Stand out clearly against competitors',
       icon: TrendingUp,
     },
     {
-      title: 'Higher Trust in Your Expertise',
-      description: 'Clear identity builds confidence in your capabilities',
+      title: 'Higher Trust in Expertise',
+      description: 'A clear identity builds confidence in your capabilities',
       icon: Shield,
     },
     {
-      title: 'More Visibility in Your Category',
-      description: 'Become the obvious choice when people search for your identity',
+      title: 'Better Positioning',
+      description: 'Your brand is recognized as the obvious choice in your category',
       icon: Eye,
     },
     {
-      title: 'Better Introductions',
-      description: 'People introduce you more accurately to others',
+      title: 'Controlled Narrative',
+      description: 'You shape how others perceive and introduce you',
       icon: Users,
     },
   ]
@@ -68,7 +67,7 @@ export function WhyItMatters() {
             Why Digital Credibility Matters
           </h2>
 
-          {/* Three core principles */}
+          {/* Core principles */}
           <div className="grid md:grid-cols-3 gap-6 mb-12 max-w-4xl mx-auto">
             {principles.map((principle, index) => {
               const Icon = principle.icon
@@ -77,7 +76,7 @@ export function WhyItMatters() {
                   <div className="w-16 h-16 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center mb-4">
                     <Icon className="w-8 h-8 text-white" />
                   </div>
-                  <p className="text-lg text-slate-200 font-semibold">{principle.text}</p>
+                  <p className="text-lg text-slate-200 font-semibold text-center">{principle.text}</p>
                 </div>
               )
             })}
@@ -90,7 +89,7 @@ export function WhyItMatters() {
         {/* Benefits grid */}
         <div className="mb-12">
           <h3 className="text-2xl font-bold text-white mb-8 text-center">
-            A strong identity phrase ensures:
+            A strong digital identity gives you:
           </h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {benefits.map((benefit, index) => {
@@ -120,7 +119,7 @@ export function WhyItMatters() {
         {/* Closing statement */}
         <div className="bg-gradient-to-r from-purple-500/20 to-pink-500/20 border border-purple-400/30 rounded-xl p-8 text-center">
           <p className="text-xl text-slate-100 leading-relaxed">
-            When people understand who you are, they find you more easily, introduce you more accurately, and choose you more confidently.
+            When people know exactly who you are, they search for you, recommend you accurately, and choose you confidently.
           </p>
         </div>
       </div>
