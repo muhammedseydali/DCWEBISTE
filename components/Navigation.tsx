@@ -44,9 +44,9 @@ export function Navigation() {
             <div className="flex-shrink-0">
               <a href="#" className="flex items-center gap-2">
                 <Image
-                  src="/newlogo.jpg"
+                  src="/digitalreverse.png"
                   alt="DCB Logo"
-                  width={75}
+                  width={115}
                   height={72}
                 />
               </a>
